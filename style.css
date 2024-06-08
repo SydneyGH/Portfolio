@@ -59,7 +59,7 @@ li{
 }
 
 .sticky + .content {
-  padding-top: 102px;
+  padding-top: 60px;
 }
 
 /* Cover */
@@ -83,12 +83,13 @@ li{
 }
 
 /* info */
-
 .info{
   min-height: 100vh;
   height: 100vh;
+  padding: 20px
 }
 .about-wrapper{
+  text-align: center;
   padding-left: 64px;
 }
 
@@ -97,7 +98,10 @@ li{
   justify-content: center;
   flex-direction: column;
   font-size: 1.3rem;
+}
 
+.about-title{
+  padding-top: 200px;
 }
 
 /* Projects */
@@ -109,7 +113,9 @@ li{
 .p-container {
     padding: 64px;
   }
-  
+  .project-title{
+    padding-top: 70px;
+  }
   .row:after {
     content: "";
     display: table;
@@ -228,7 +234,14 @@ hr{
   font-size: .9rem;
 }
 
-@media screen and (min-width: 320px) {
+
+@media screen and (max-width: 1200px){
+  .about-title{
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .column-66,
   .column-33 {
     width: 100%;
@@ -242,8 +255,8 @@ hr{
     height: 100vh;
   }
   .info{
-    min-height: 150vh;
-    height: 158vh;
+    min-height: 100vh;
+    height: 100vh;
   }
   .page-title{
     font-size: 3rem;
@@ -263,37 +276,14 @@ hr{
   }
 }
 
-@media screen and (min-width: 1000px) {
-  .column-66,
-  .column-33 {
-    width: 100%;
-    text-align: center;
-  }
-  img {
-    margin: auto;
-  }
-  .container{
-    min-height: 100vh;
-    height: 100vh;
-  }
+@media screen and (max-width: 400px) {
   .info{
-    min-height: 150vh;
-    height: 158vh;
+    min-height: 120vh;
   }
-  .page-title{
-    font-size: 3rem;
-    padding: 10px;
-    text-align: center;
-  }
-  .des-info{
-    font-size: 1.2em;
-    padding-right: 17px;
-  }
-  .button1, .button2{
-    padding: 10px;
-  }
-  .contact-me{
-    text-align: center;
-    font-size: 20px;
+}
+
+@media screen and (max-width: 340px) {
+  .info{
+    min-height: 140vh;
   }
 }
