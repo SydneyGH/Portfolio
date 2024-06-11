@@ -86,11 +86,11 @@ li{
 .info{
   min-height: 100vh;
   height: 100vh;
-  padding: 20px
+  padding: 20px;
 }
 .about-wrapper{
   text-align: center;
-  padding-left: 64px;
+  padding: 0px 64px;
 }
 
 .des-info{
@@ -237,7 +237,7 @@ hr{
 
 @media screen and (max-width: 1300px){
   .about-title{
-    padding-top: 100px;
+    padding-top: 95px;
   }
 }
 
@@ -278,12 +278,12 @@ hr{
 
 @media screen and (max-width: 400px) {
   .info{
-    min-height: 120vh;
+    min-height: 125vh;
   }
 }
 
 @media screen and (max-width: 360px) {
   .info{
-    min-height: 140vh;
+    min-height: 150vh;
   }
 }
