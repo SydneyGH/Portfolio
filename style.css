@@ -282,8 +282,14 @@ hr{
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   .info{
-    min-height: 150vh;
+    min-height: 160vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .info{
+    min-height: 190vh;
   }
 }
