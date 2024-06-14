@@ -49,7 +49,7 @@ a:link, a:visited {
 }
 
 li{
-    padding: 20px;
+    padding: 20px 30px;
     font-size: 2em;
 }
 
@@ -60,7 +60,7 @@ li{
 }
 
 .sticky + .content {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 /* Cover */
@@ -84,11 +84,14 @@ li{
 }
 
 /* info */
-.info{
+#aboutme{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
   height: 100vh;
-  padding: 20px;
 }
+
 .about-wrapper{
   text-align: center;
   padding: 0px 64px;
@@ -99,10 +102,6 @@ li{
   justify-content: center;
   flex-direction: column;
   font-size: 1.3rem;
-}
-
-.about-title{
-  padding-top: 200px;
 }
 
 /* Projects */
