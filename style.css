@@ -18,6 +18,7 @@ body {
     border-radius:4px;
     border:1px solid #0e0101;
     transition: all 0.3s linear;
+    border: none;
 }
 
 
@@ -59,7 +60,7 @@ li{
 }
 
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 /* Cover */
@@ -111,10 +112,10 @@ li{
 }
 
 .p-container {
-    padding: 64px;
+    padding: 0px 80px;
   }
   .project-title{
-    padding-top: 70px;
+    padding-top: 80px;
   }
   .row:after {
     content: "";
@@ -139,7 +140,7 @@ li{
   }
   
   .xlarge-font {
-    font-size: 64px
+    font-size: 64px;
   }
   
   .button1, .button2{
